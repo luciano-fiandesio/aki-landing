@@ -1,0 +1,77 @@
+        <!-- Start bilo-widget section -->
+        <section class="bilo_widget section_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="widget_area">
+                            <div class="widget-title">
+                                <img src="{{ site.data.setting.logo }}" alt="">
+                            </div>
+                            <div class="widget-about">
+                                <p>{{ site.data.widget.about_widget.description }}</p>
+                            </div>
+                            <div class="widget-link">
+                                <ul>
+                                    {% for social in site.data.widget.social_widget %}
+                                    <li><a href="{{ social.link }}"><i class="{{ social.icon }}"></i></a></li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="widget_area">
+                            <div class="widget-title">
+                                <h4>More Links<span>.</span></h4>
+                            </div>
+                            <div class="widget-list">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <ul>
+                                            {% for link in site.data.widget.footer_link_right %}
+                                            <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <ul>
+                                            {% for link in site.data.widget.footer_link_left %}
+                                            <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="widget_area">
+                            <div class="widget-title">
+                                <h4>{{ site.data.widget.download_widget.text }}</h4>
+                            </div>
+                            <div class="widget-img">
+                                <img src="{{ site.data.widget.download_widget.image }}" class="img-fluid" alt="">
+                            </div>
+                            <div class="widget-link">
+                                <ul>
+                                    <li>
+                                        <span>{{ site.data.widget.download_widget.download_text }}</span>
+                                    </li>
+                                    <li>
+                                        <a href="{{ site.data.widget.download_widget.android_download_link }}">
+                                            <i class="fab fa-android"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ site.data.widget.download_widget.applie_download_link }}">
+                                            <i class="fab fa-apple"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End bilo-widget section -->

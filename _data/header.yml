@@ -1,0 +1,14 @@
+header_title: 'Best App For Grow Business.'
+header_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.'
+button_one:
+  text: Get Started Now
+  url: '#'
+
+button_two:
+  text: Learn More
+  url: '#'
+
+
+
+header_image: assets/img/h_1.png
+

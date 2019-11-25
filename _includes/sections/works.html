@@ -1,0 +1,33 @@
+        <!-- Start Bilo_works section -->
+        <section class="bilo_works section_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="bilo_title_span text-center">
+                            <span>{{ site.data.works.tagline }}</span>
+                        </div>
+                        <div class="bilo_title text-center">
+                            <h2>{{ site.data.works.title }}</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row work_box_area">
+                    <div class="work_line"></div>
+                    {% for area in site.data.works.area %}
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="work_box text-center wow fadeInUp" data-wow-delay=".3s">
+                            <div class="work_icon">
+                                <img src="{{ area.image }}" class="img-fluid" alt="">
+                            </div>
+                            <div class="work_info">
+                                <a href="{{ area.button.url }}" class="work_btn">{{ area.button.text }}</a>
+                                <h4>{{ area.name }}</h4>
+                                <p>{{ area.description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+        <!-- End Bilo_works section -->

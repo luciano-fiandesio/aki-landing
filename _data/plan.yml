@@ -1,0 +1,38 @@
+title: 'Easily Intrigate <br>Business Plan '
+description: 'Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            <br>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.'
+tagline: 'get start from today'
+
+download_button: 
+  text: download_button
+  url: '#'
+
+
+plan:
+  - image: 'assets/img/1.png'
+    title: 'Easy To Control'
+    description: 'Lorem ipsum dolor sit amet, consecte tur adipi sicing elit, sed do eiusmod tempor incididunt ut labore.'
+    button: 
+      text: 'Read more'
+      url: '#'
+
+  - image: 'assets/img/1.png'
+    title: 'Overview Reports'
+    description: 'Lorem ipsum dolor sit amet, consecte tur adipi sicing elit, sed do eiusmod tempor incididunt ut labore.'
+    button: 
+      text: 'Read more'
+      url: '#'
+
+  - image: 'assets/img/1.png'
+    title: 'Account Management'
+    description: 'Lorem ipsum dolor sit amet, consecte tur adipi sicing elit, sed do eiusmod tempor incididunt ut labore.'
+    button: 
+      text: 'Read more'
+      url: '#'
+
+  - image: 'assets/img/1.png'
+    title: 'Chat Setup'
+    description: 'Lorem ipsum dolor sit amet, consecte tur adipi sicing elit, sed do eiusmod tempor incididunt ut labore.'
+    button: 
+      text: 'Read more'
+      url: '#'

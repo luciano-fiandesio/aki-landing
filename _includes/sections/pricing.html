@@ -1,0 +1,78 @@
+        <!-- Start Bilo_pricing section -->
+        <section class="bilo_pricing section_padding" id="pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="bilo_title_span">
+                            <span>{{ site.data.pricing.tagline }}</span>
+                        </div>
+                        <div class="bilo_title">
+                            <h2>{{ site.data.pricing.title }}</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="pricing_tab">
+                            <input type="text">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a class="pricing_tab_btn active"  data-toggle="tab" href="#yearly">yearly</a></li>
+                                <li><a class="pricing_tab_btn-2 pricing_tab_btn" data-toggle="tab" href="#monthly">monthly</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div id="yearly" class="tab-pane active fadeIn animated">
+                        <div class="row">
+                            {% for pricing in site.data.pricing.yearly_pricing %}
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="price_table text-center">
+                                    <div class="price_title">
+                                        <h2>{{ pricing.name }}</h2>
+                                    </div>
+                                    <div class="price_tag">
+                                        <h1>{{ pricing.price_tag }}</h1>
+                                    </div>
+                                    <div class="price_body">
+                                        {{ pricing.description }}
+                                    </div>
+                                    <div class="price_button">
+                                        <a href="{{ pricing.purchase_button.url }}" class="price_btn">
+                                        {{ pricing.purchase_button.text }}
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div id="monthly" class="tab-pane fadeIn animated">
+                        <div class="row">
+                            {% for pricing in site.data.pricing.monthly_pricing %}
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="price_table text-center">
+                                    <div class="price_title">
+                                        <h2>{{ pricing.name }}</h2>
+                                    </div>
+                                    <div class="price_tag">
+                                        <h1>{{ pricing.price_tag }}</h1>
+                                    </div>
+                                    <div class="price_body">
+                                        {{ pricing.description }}
+                                    </div>
+                                    <div class="price_button">
+                                        <a href="{{ pricing.purchase_button.url }}" class="price_btn">
+                                        {{ pricing.purchase_button.text }}
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="price_bg">
+                <img src="assets/img/price_g.png" class="img-fluid" alt="">
+            </div>
+        </section>
+        <!-- End Bilo_pricing section -->

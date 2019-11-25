@@ -1,0 +1,32 @@
+        <!-- Start bilo testimonial section -->
+        <section class="bilo_testimonial section_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="bilo_title_span">
+                            <span>{{ site.data.testimonial.tagline }}</span>
+                        </div>
+                        <div class="testimonial_text">
+                            <h2>{{ site.data.testimonial.title }}</h2>
+                            <p>{{ site.data.testimonial.description }}</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="testimonial_slide">
+                            {% for review in site.data.testimonial.review %}
+                            <div class="testimonial_single">
+                                <div class="testimonial_icon">
+                                    <i class="flaticon-quote"></i>
+                                </div>
+                                <div class="testimonial_review">
+                                    <p>{{ review.quote }}</p>
+                                    <h5>{{ review.author_name }} <span>- {{ review.po }}</span></h5>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End bilo testimonial section -->

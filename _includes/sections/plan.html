@@ -1,0 +1,47 @@
+
+        <!-- Start Bilo plan section  -->
+        <section class="bilo_plan section_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="bilo_span bilo_plan_span">
+                            <span>{{ site.data.plan.tagline }}</span>
+                        </div>
+                        <div class="plan_text_area">
+                            <h2>{{ site.data.plan.title }}</h2>
+                            <p>{{ site.data.plan.description }}</p>
+                        </div>
+                        {% if site.data.plan.download_button.text %}
+                        <div class="plan_button">
+                            <a href="{{ site.data.plan.download_button.url ?? '#' }}" class="plan_btn bilo_btn">
+                            {{ site.data.plan.download_button.text }}
+                            </a>
+                        </div>
+                        {% endif %}
+                        
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row">
+
+                            {% for plan in site.data.plan.plan %}
+                            <div class="col-lg-6">
+                                <div class="plan_box wow fadeInUp" data-wow-delay=".5s">
+                                    <div class="plan_icon">
+                                        <img src="{{ plan.image }}" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="plan_info">
+                                        <h4>{{ plan.title }}</h4>
+                                        <p>{{ plan.description }}</p>
+                                        <a href="{{ plan.button.url }}" class="plan_btn">{{ plan.button.txt }}</a>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Bilo plan section  -->

@@ -1,0 +1,27 @@
+        <!-- Start bilo_featues_slide section -->
+        <section class="bilo_featues_slide section_padding" id="feature">
+            <div class="bilo_feature_top">
+                <div class="bilo_title_span text-center">
+                    <span>{{ site.data.featues.tagline }}</span>
+                </div>
+                <div class="bilo_title text-center">
+                    <h2>{{ site.data.featues.title }}</h2>
+                </div>
+            </div>
+            <div class="feature_slide">
+                {% for slide in site.data.featues.slide %}
+                <div class="feature_area">
+                    <div class="feature_icon">
+                        {% if slide.icon %}
+                        <i class="{{ slide.icon }}"></i>
+                        {% endif %}
+                    </div>
+                    <div class="feature_info">
+                        <h4>{{ slide.title }}</h4>
+                        <p>{{ slide.description }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+        <!-- End bilo_featues_slide section -->

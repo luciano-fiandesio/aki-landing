@@ -1,0 +1,47 @@
+        <!-- Start bilo_intrested_app section -->
+        <section class="bilo_intrested_app section_padding light_bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="intrested_app_img text-center wow fadeInLeft" data-wow-delay=".3s">
+                            <img src="{{ site.data.intrested.image }}" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay=".3s">
+                        <div class="bilo_span">
+                            <span>{{ site.data.intrested.tagline }}</span>
+                        </div>
+                        <div class="intrest_app_area">
+                            <h2>{{ site.data.intrested.title }}</h2>
+                            <p>{{ site.data.intrested.description }}</p>
+                        </div>
+                        <div class="intrest_app_download">
+                            {% if site.data.intrested.play_store_link %}
+                            <a href="{{ site.data.intrested.play_store_link }}" class="intrest_app_btn app_icon android_icon">
+                                <span>Get It On</span> Google Play
+                            </a>
+                            {% endif %}
+                            {% if site.data.intrested.apple_store_link %}
+                            <a href="{{ site.data.intrested.apple_store_link }}" class="intrest_app_btn app_icon apple_icon">
+                                <span>Get It On</span> Apple Play
+                            </a>
+                            {% endif %}
+                        </div>
+                        {% if site.data.intrested.review_button.text %}
+                        <div class="intrest_app_review mt_45">
+                            <div class="intrest_app_icon">
+                                <i class="flaticon-review"></i>
+                            </div>
+                            <div class="intrest_review_text">
+                                <h4>{{ site.data.intrested.review_button.info }}</h4>
+                                <a href="{{ site.data.intrested.review_button.link }}" class="intrest_review_btn">
+                                {{ site.data.intrested.review_button.text }}
+                                </a>
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End bilo_intrested_app section -->

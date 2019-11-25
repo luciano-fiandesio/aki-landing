@@ -1,0 +1,31 @@
+        <!-- Start bilo_news_feed section -->
+        <section class="bilo_news_feed section_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="bilo_title_span text-center">
+                            <span>{{ site.data.news_feed.tagline }}</span>
+                        </div>
+                        <div class="bilo_title text-center">
+                            <h2>{{ site.data.news_feed.title }}</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    {% for post in site.posts limit: 3 %}
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="blog_sigle_area wow fadeInUp" data-wow-delay=".2s">
+                            <div class="blog_img">
+                                <img src="{{ post.image }}" class="img-fluid" alt="">
+                            </div>
+                            <div class="blog_info">
+                                <a href="#" class="b_tag">{{ post.tag | first }}</a>
+                                <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+        <!-- End bilo_news_feed section -->

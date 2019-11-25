@@ -1,0 +1,26 @@
+title: 'How It Works?'
+tagline: 'process'
+
+
+area:
+  - name: 'Research'
+    description: 'Lorem ipsum dolor sit amet, consecte tur adipi sicing elit, sed do eiusmod tempor incididunt ut labore.'
+    image: 'assets/img/w_1.png'
+    button:
+      text: '01'
+      url: '#'
+
+  - name: 'Desiagn'
+    description: 'Lorem ipsum dolor sit amet, consecte tur adipi sicing elit, sed do eiusmod tempor incididunt ut labore.'
+    image: 'assets/img/w_2.png'
+    button:
+      text: '02'
+      url: '#'
+
+  - name: 'Build Favor'
+    description: 'Lorem ipsum dolor sit amet, consecte tur adipi sicing elit, sed do eiusmod tempor incididunt ut labore.'
+    image: 'assets/img/w_3.png'
+    button:
+      text: '03'
+      url: '#'
+

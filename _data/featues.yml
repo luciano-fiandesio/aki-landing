@@ -1,0 +1,36 @@
+title: 'Bilo Built With All <br>Cool Featues'
+tagline: 'core features'
+
+
+slide: 
+  - name: 'Video Conference'
+    icon: 'flaticon-ui'
+    description: 'Lorem ipsum dolor sit amet, consecte tur adipisicing elit, sed do eiusmod tempor incididunt ut.'
+
+  - name: 'Share Video, Image'
+    icon: 'flaticon-gear'
+    description: 'Lorem ipsum dolor sit amet, consecte tur adipisicing elit, sed do eiusmod tempor incididunt ut.'
+
+  - name: 'Make A Call'
+    icon: 'flaticon-customer-service'
+    description: 'Lorem ipsum dolor sit amet, consecte tur adipisicing elit, sed do eiusmod tempor incididunt ut.'
+
+  - name: 'Photo Editing'
+    icon: 'flaticon-settings'
+    description: 'Lorem ipsum dolor sit amet, consecte tur adipisicing elit, sed do eiusmod tempor incididunt ut.'
+
+  - name: '24/7 Online Support'
+    icon: 'flaticon-24-hours'
+    description: 'Lorem ipsum dolor sit amet, consecte tur adipisicing elit, sed do eiusmod tempor incididunt ut.'
+
+  - name: 'Share Video, Image'
+    icon: 'flaticon-gear'
+    description: 'Lorem ipsum dolor sit amet, consecte tur adipisicing elit, sed do eiusmod tempor incididunt ut.'
+
+  - name: 'Make A Call'
+    icon: 'flaticon-customer-service'
+    description: 'Lorem ipsum dolor sit amet, consecte tur adipisicing elit, sed do eiusmod tempor incididunt ut.'
+
+  - name: 'Photo Editing'
+    icon: 'flaticon-settings'
+    description: 'Lorem ipsum dolor sit amet, consecte tur adipisicing elit, sed do eiusmod tempor incididunt ut.'

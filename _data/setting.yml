@@ -1,0 +1,9 @@
+
+logo: assets/img/logo-aki.png
+favicon: 'assets/img/fav.png'
+site_title: ''
+site_description: ''
+copywrite: 'Copyright By@Example - 2019'
+download_button: 
+  url: '#'
+  text: 'Download'

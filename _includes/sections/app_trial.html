@@ -1,0 +1,30 @@
+        <!-- Start bilo_app_trial section -->
+        <section class="bilo_app_trial section_padding" id="download">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="bilo_title_span app_title_span text-center">
+                            <span>{{ site.data.app_trial.tagline }}</span>
+                        </div>
+                        <div class="bilo_title app_title text-center">
+                            <h2>{{ site.data.app_trial.title }}</h2>
+                        </div>
+                        <div class="bilo_bg_btn text-center">
+                            {% if site.data.app_trial.button_started.text %}
+                            <a href="{{ site.data.app_trial.button_started.url ?? '#' }}" class="bg_btn active-btn">
+                                {{ site.data.app_trial.button_started.text }}
+                            </a>
+                            {% endif %}
+                            {% if site.data.app_trial.button_learn.text %}
+                            <a href="{{ site.data.app_trial.button_learn.url ?? '#'}}" class="bg_btn">
+                                {{ site.data.app_trial.button_learn.text }}
+                            </a>
+                            {% endif %}
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End bilo_app_trial section -->

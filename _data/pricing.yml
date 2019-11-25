@@ -1,0 +1,93 @@
+title: 'Get Your Attention <br>With Bilo App.'
+tagline: 'pricing plans'
+image: 'assets/img/price_g.png'
+
+
+
+monthly_pricing:
+  - name: Regular
+    price_tag: '$45<span>/mo</span>'
+    description: '<ul>
+                      <li>Unlimited Results Per Search</li>
+                      <li>Unlimited Saved Search</li>
+                      <li>Unlimited Invites</li>
+                      <li>Unlimited Campaigns</li>
+                  </ul>'
+    purchase_button:
+      text: 'Purchase Now'
+      link: '#'
+
+  - name: Advanced
+    price_tag: '$99<span>/mo</span>'
+    description: '<ul>
+                    <li>Unlimited Results Per Search</li>
+                    <li>Unlimited Saved Search</li>
+                    <li>Unlimited Invites</li>
+                    <li>Unlimited Campaigns</li>
+                    <li>Unlimited Massages</li>
+                    <li>Unlimited Hosting Plans</li>
+                    <li>Unlimited Call & Sms</li>
+                </ul>'
+    purchase_button:
+      text: 'Purchase Now'
+      link: '#'
+
+  - name: Team
+    price_tag: '$778<span>/mo</span>'
+    description: '<ul>
+                    <li>Unlimited Results Per Search</li>
+                    <li>Unlimited Saved Search</li>
+                    <li>Unlimited Invites</li>
+                    <li>Unlimited Campaigns</li>
+                </ul>'
+    purchase_button:
+      text: 'Purchase Now'
+      link: '#'
+
+
+
+yearly_pricing:
+  - name: Regular
+    price_tag: '$45<span>/mo</span>'
+    description: '<ul>
+                      <li>Unlimited Results Per Search</li>
+                      <li>Unlimited Saved Search</li>
+                      <li>Unlimited Invites</li>
+                      <li>Unlimited Campaigns</li>
+                  </ul>'
+    purchase_button:
+      text: 'Purchase Now'
+      link: '#'
+
+  - name: Advanced
+    price_tag: '$99<span>/mo</span>'
+    description: '<ul>
+                    <li>Unlimited Results Per Search</li>
+                    <li>Unlimited Saved Search</li>
+                    <li>Unlimited Invites</li>
+                    <li>Unlimited Campaigns</li>
+                    <li>Unlimited Massages</li>
+                    <li>Unlimited Hosting Plans</li>
+                    <li>Unlimited Call & Sms</li>
+                </ul>'
+    purchase_button:
+      text: 'Purchase Now'
+      link: '#'
+
+  - name: Team
+    price_tag: '$778<span>/mo</span>'
+    description: '<ul>
+                    <li>Unlimited Results Per Search</li>
+                    <li>Unlimited Saved Search</li>
+                    <li>Unlimited Invites</li>
+                    <li>Unlimited Campaigns</li>
+                </ul>'
+    purchase_button:
+      text: 'Purchase Now'
+      link: '#'
+
+
+
+
+
+  

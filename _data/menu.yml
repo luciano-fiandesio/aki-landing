@@ -1,0 +1,11 @@
+header: 
+  - name: 'Home'
+    url: '#home'
+  - name: 'Features'
+    url: '#feature'
+  - name: 'Pricing'
+    url: '#pricing'
+  - name: 'Download'
+    url: '#download'
+  - name: 'Blog'
+    url: 'blog'
